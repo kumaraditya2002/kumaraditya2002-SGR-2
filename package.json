@@ -1,0 +1,18 @@
+{
+  "name": "geekheaven2",
+  "version": "1.0.0",
+  "description": "This is a website for covid-19",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aditya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "html": "^1.0.0",
+    "mongoose": "^5.9.14",
+    "nodemon": "^2.0.4"
+  }
+}

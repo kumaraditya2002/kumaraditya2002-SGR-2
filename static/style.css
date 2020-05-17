@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+}
+
+#btn{
+    background-image: url("images/menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    height: 100%;
+    width: 60px;
+    background-color: #f98f39;
+    cursor: pointer;
+}
+
+.navbar ul{
+    display: flex;
+    padding-left: 15px;
+}
+
+.navbar ul li{
+    list-style: none;
+    line-height: 60px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    padding:2px 20px;
+    color: #111;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#btn:hover{
+    opacity: 0.6;
+}
+
+.sidebar{
+    width: 50px;
+    padding: 0 5px;
+    height: calc(100vh - 60px);
+    background-color:#1b1b1b;
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar ul{
+    padding-top: 20px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.sidebar ul li{
+    line-height: 60px;
+    list-style: none;
+}
+
+.sidebar ul li span , .sidebar ul li a{
+    padding:0 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.sidebar ul li a:hover{
+    background-color: #222;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+}
+
+.main img{
+    width: 450px;
+    height: 330px;
+}
+
+.main  button{
+    position: absolute;
+    top:337px;
+    right: 150px;
+    margin-top: 15px;
+    height: 44px;
+    border: 2px solid red;
+    width: 180px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+    font-family:'Roboto Condensed', sans-serif ;
+    outline: none;
+}
+
+.main button:hover{
+    opacity: 0.8;
+}
+
+.main h1{
+    position: absolute;
+    top: 100px;
+    left: -520px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif ;
+    animation: aditya 1s infinite ease-in-out;
+}
+
+.formsec{
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   left: 337px;
+   top: 85px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.input{
+    margin-top: 10px;
+    padding: 10px 10px;
+    font-family: 'Roboto Condensed', sans-serif ;
+    font-size: 20px;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid red;
+    background-color: rgb(236, 183, 103);
+    color: rgb(123, 115, 115);
+}
+.formsec h1{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif ;
+}
+
+.btn{
+    position: absolute;
+    left: 5px;
+    top: 490px;
+    width: 44%;
+    padding: 10px 5px;
+    font-family: 'Roboto Condensed', sans-serif ;
+    border-radius: 14px;
+    border: 2px solid red;
+    background: black;
+    color: white;
+    height: 40px;
+    font-size: 15px;
+    outline: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#reset{
+    left: 383px;
+}
+
+.btn:hover{
+    color: black;
+    background:white;
+    font-weight: bolder;
+}
+
+@keyframes aditya{
+    0%{
+        color:red;
+    }
+    50%{
+        color: orange;
+    }
+    75%{
+        color: black;
+    }
+    100%{
+        color: skyblue;
+    }
+}

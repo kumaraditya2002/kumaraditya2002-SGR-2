@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div id="btn" onclick="openNav()"></div>
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/">KNOW MORE</a></li>
+            <li><a href="/">COVID-19 CASES</a></li>
+            <li><a href="/form">FILL THE FORM</a></li>
+            <li><a href="/">SIGN UP</a></li>
+        </ul>
+    </nav>
+        <section class="formsec">
+            <h1>TELL US ABOUT YOUR SELF</h1>
+            <form action="/form" method="POST" class="form">
+                <input type="text" name="name" placeholder="Enter your name" class="input">
+                <input type="phone" name="phone" placeholder="Enter your phone no."  class="input">
+                <input type="email" name="email" placeholder="Enter your email" class="input" >
+                <input type="text" name="address" placeholder="Enter your address"  class="input">
+                <input type="text" name="gender" placeholder="Enter your gender"  class="input">
+                <input type="date" name="dob" class="input">
+                <textarea name="concern" id="concern" placeholder="Enter your concern about covid-19" cols="10" rows="1" class="input"></textarea>
+                <button type="submit", class="btn">SUBMIT</button>
+                <button type="reset", class="btn" id="reset">RESET</button>
+            </form>
+        </section>
+    <aside class="sidebar">
+        <ul>
+            <li><span>COVID-19 PANDEMIC</span></li>
+            <li><a href="#">INDIA</a></li>
+            <li><a href="#">USA</a></li>
+            <li><a href="#">CHINA</a></li>
+            <li><a href="#">RUSSIA</a></li>
+            <li><a href="#">ITALY</a></li>
+        </ul>
+    </aside>
+    <script src="../static/my.js"></script>
+</body>
+</html>
