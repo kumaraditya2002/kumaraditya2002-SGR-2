@@ -39,7 +39,7 @@ app.get('/form',(req,res)=>{
 app.post('/form',(req,res)=>{
     var myData = new data(req.body);
     myData.save().then(()=>{
-        res.send("<h1>Your form has been submitted</h1>");   //sending response with status code 200 if there is no error
+        res.status(200).send("<h1>Your form has been submitted</h1>");   //sending response with status code 200 if there is no error
     }).catch(()=>{   //sending response with status code 400 if there is an error
         res.status(400).send("<h1>Your form has not been submitted</h1>");
     });
