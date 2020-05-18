@@ -7,5 +7,6 @@
 
 4.I had used node.js a framework express and a database mognoDB
 
-#Name:Aditya Kumar
-#Skills:HTML,CSS,JS,Node.js,MongoDB
+# Name:Aditya Kumar
+
+# Skills:HTML,CSS,JS,Node.js,MongoDB
