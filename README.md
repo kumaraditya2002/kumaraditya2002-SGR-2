@@ -5,4 +5,7 @@
 
 3.I had used mongoDb for handling the datas and storing the data from the form in a collection named datas which is in a database named personData.
 
-4.I had used node.js a framework express and database mongoDB.
+4.I had used node.js a framework express and a database mognoDB
+
+#Name:Aditya Kumar
+#Skills:HTML,CSS,JS,Node.js,MongoDB
