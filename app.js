@@ -45,7 +45,7 @@ app.post('/form',(req,res)=>{
     });
 });
 
-//starting our server at localhost and port 80
+//starting our server at localhost  port 80
 app.listen(port,()=>{
     console.log(`Server started at port ${port}`);
 })
